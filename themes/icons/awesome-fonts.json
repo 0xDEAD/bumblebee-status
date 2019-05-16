@@ -133,6 +133,9 @@
 	"docker_ps": {
 		"prefix": ""
 	},
+	"gmail": {
+		"prefix": ""
+	},
 	"nvidiagpu": {
 		"prefix": ""
         },
