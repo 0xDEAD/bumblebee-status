@@ -36,4 +36,4 @@ class Module(bumblebee.engine.Module):
             return "Daemon off"
         except Exception:
             return "n/a"
-        return "OK - {}".format(len(cli.containers.list(filters={'status': "running"})))
+        return "{}".format(len(cli.containers.list(filters={'status': "running"})))
