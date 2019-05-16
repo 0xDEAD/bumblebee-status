@@ -31,7 +31,7 @@ class Module(bumblebee.engine.Module):
         super(Module, self).__init__(engine, config,
             bumblebee.output.Widget(full_text=self.get_time))
         engine.input.register_callback(self, button=bumblebee.input.LEFT_MOUSE,
-                                    cmd="calendar")
+                                    cmd="gsimplecal")
         self._fmt = self.parameter("format", default_format(self.name))
         l = locale.getdefaultlocale()
         if not l or l == (None, None):
