@@ -133,6 +133,9 @@
 	"docker_ps": {
 		"prefix": ""
 	},
+	"nvidiagpu": {
+		"prefix": ""
+        },
     "sensors": {
         "prefix": ""
     },
